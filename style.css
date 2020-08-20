@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0em;
+
+}
+.banner {
+    background: url(Dani\ Banner.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 16rem;
+    color: rgb(154, 228, 241);
+
+}
+
+.banner_titulo {
+    font-size: 4rem;
+    margin: 0em;
+
+}
+.banner_descricao {
+    font-size: 1.5rem;
+    margin: 1rem;
+
+}
+
+
+.botao-branco {
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-width: 0rem;
+    background-color: white;
+    color: rgba(255, 30, 0, 0.938);
+    
+}
+#botao {
+    display: inline-block;
+    background-color: rgba(255, 30, 0, 0.938);
+    width: 10%;
+    height: 50px;
+    padding: 1rem 0;
+    margin: 0 27rem;
+    color: white;
+    text-align: center;
+
+    
+}
+.container {
+    max-width: 1080px;
+    margin: 0rem auto;
+    padding: 2rem;
+
+}
+
+.sobre_titulo {
+    text-align: center;
+
+}
+
+.sobre_descricao {
+    width: 30%;
+    display: inline-block;
+    
+}
+.sobre_habilidades {
+    width: 40%;
+    display: initial;
+
+
+}
+
+.footer {
+    max-width: 1080rem;
+    margin: 0rem auto;
+    padding: 2rem;
+    text-align: center;
+
+}
+.redes-socias_link {
+    display: inline-block;
+    background-color: rgba(255, 30, 0, 0.938);
+    width: 20%;
+    height: 150px;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    color: white;
+}
+
+.redes-sociais_img {
+    height: 60px;
+}
